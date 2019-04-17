@@ -1,0 +1,166 @@
+.navbar
+{
+height:80px;	
+}
+
+body {
+  font-size: 1rem;
+  background-image:url('file:///D:/Spring/erpPro/src/main/webapp/resources/images/emp-bg-002.jpg');
+}
+
+.page-wrapper {
+  width: 80px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 2px;
+  height: 100vh;
+}
+
+
+.page-wrapper.toggled .sidebar-wrapper {
+  left: 0px;
+  padding-top:30px;
+   border-top: 1px solid aqua;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.sidebar-wrapper {
+  width: 260px;
+  height: 100%;
+  max-height: 100%;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  z-index: 999;
+  
+}
+
+.sidebar-wrapper ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px;;
+  
+}
+
+.sidebar-wrapper a {
+  text-decoration: none;
+}
+
+.sidebar-wrapper .sidebar-brand {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-wrapper .sidebar-header {
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+.sidebar-wrapper .sidebar-menu {
+  padding-bottom: 10px;
+}
+
+.sidebar-wrapper .sidebar-menu .header-menu span {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 15px 20px 5px 20px;
+  display: inline-block;
+}
+
+.sidebar-wrapper .sidebar-menu ul li a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  position: relative;
+  padding: 8px 30px 8px 20px;
+  color:#999999;
+}
+.sidebar-wrapper .sidebar-menu ul li a:hover{
+	
+color:#C0C0C0;
+}
+
+.sidebar-wrapper .sidebar-menu> a:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  background: 0 0;
+  position: absolute;
+  right: 15px;
+  top: 14px;
+  
+}
+
+
+.page-wrapper .page-content {
+  display: inline-block;
+  width: 100%;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+.page-wrapper .page-content > div {
+  padding: 20px 40px;
+}
+
+.chiller-theme .sidebar-wrapper {
+    background: #31353D;
+}
+
+.page-wrapper.chiller-theme.toggled #close-sidebar {
+    color:white;
+}
+
+.chiller-theme .sidebar-wrapper .sidebar-menu .header-menu span {
+    color: white;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  margin-left:200px;
+  left: 0;
+  top: 0;
+  width: 80%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.close {
+  color: #aaaaaa;
+  margin-left:600px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#myModal{
+	width:65%;
+	height:70%;
+	margin-left:350px;
+	margin-top:100px;
+}
+
+
+
+ 

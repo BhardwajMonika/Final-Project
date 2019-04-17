@@ -1,0 +1,103 @@
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height:100%;
+    text-transform: uppercase;
+    background:#DA70D6;
+}
+.main-agileits {
+    width: 600px;
+    margin:40px 30px 20px 30px;
+   height:auto;
+	}
+	
+h1 {
+	font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 50px 0;
+    color: #ffffff;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+#name1,#name2{
+	width:15%;
+}
+form {
+    margin:40px 40px 40px 20px;
+    width: 650px;
+    border:2px solid black;
+    background-color:black;
+    opacity:0.7;
+}
+.form-sub-w3{
+	position:relative;
+	margin-left:30px;
+}
+.form-sub-w3 input[type="text"],input[type="password"] {
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 40px 10px 40px;
+    width:25%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    margin:0 30px 25px;
+    background: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.form-sub-w3 input[type="date"] {
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 40px 10px 40px;
+    width:40%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    margin:0 30px 25px;
+    background: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+input[type="submit"] {
+	background-color:limegreen;
+    color: white;
+    outline: none;
+    border-radius:5px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 9px 38px;
+    font-size: 14px;
+    margin-top: 55px;
+    margin-bottom:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.3s all;
+}
+input[type="submit"]:hover{
+    background-color:lime;
+	color:black;
+	transition: 0.3s all;
+   	
+}
+
+.form-sub-w3ls{
+	position:relative;
+}
+
+label{
+        color:white;
+    font-size: 12px;
+    margin-left:35px;
+    margin-top:30px;
+    display: inline-block;
+}
+
+	
